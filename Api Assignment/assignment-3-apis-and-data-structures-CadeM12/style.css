@@ -1,0 +1,118 @@
+html, body{
+    font-family: 'Oswald', serif;
+    text-align: center;
+    background-color: rgb(18, 19, 22);
+    margin:0;
+    padding:0;
+    color: rgb(158, 158, 158);
+}
+
+h1, h2{
+    margin: 0;
+    width: 100%;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    background-color: rgb(34, 0, 10);
+}
+
+h2{
+    padding:0;
+    padding-bottom:1rem;
+    font-size: 1rem;
+}
+
+input{
+    font-size: 1rem;
+    font-family: 'Oswald', serif;
+}
+
+#searchBar{
+    width: 100%;
+    margin: 1.5rem;
+    padding: 5px;
+}
+
+#search{
+    margin: 0 35%;
+    width: 30%;
+    position: fixed;
+}
+
+.movieBanner{
+    display: inline-block;
+    margin:2rem;
+    width: 25%;
+    transition: width 1s;
+    border: 1px solid black;
+}
+
+.movieBanner:hover{
+    width: 30%;
+}
+
+.imgContainer{
+    height:28rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#GOT{
+    background-image: url('./Images/GOT/GOT2.jpg');
+}
+
+#HP{
+    background-image: url('./Images/HP/HP1.jpg');
+}
+
+#LOTR{
+    background-image: url('./Images/LOTR/LOTR2.jpg');
+}
+.movieBanner h1{
+    font-size: 1.5rem;
+    width:auto;
+    padding: 2rem 0;
+    background-color: rgb(34, 0, 10);
+}
+
+#back {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(34, 0, 10);
+    color: rgb(158, 158, 158);
+    display: block;
+    position: fixed;
+    text-align: left;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    top: 0;
+}
+
+table {
+    margin-top: 5rem;
+    width: 100%;
+}
+table td {
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 1rem;
+    width: 20%;
+    vertical-align: top;
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: rgb(114, 114, 114);
+    color: rgb(34, 0, 10);
+    box-shadow: 0 0 3px;
+}
+
+td {
+    color:rgb(87, 87, 87);
+    height: 100%;
+}
+
+td img{
+    width:100%;
+}

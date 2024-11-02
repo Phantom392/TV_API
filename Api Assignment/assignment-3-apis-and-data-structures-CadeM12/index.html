@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>TV Shows List</title>
+</head>
+<body>
+    <audio id="gotMusic">
+        <source src="./Music/Game of Thrones.mp3">
+    </audio>
+    <audio id="hpMusic">
+        <source src='./Music/Harry_Potter_Theme_Song_Hedwigs_Theme.mp3'>
+    </audio>
+    <audio id="lotrMusic">
+        <source src="./Music/02 - The Shire.mp3">
+    </audio>
+    <div id="frontPage">
+        <h1>CHARACTER INFORMATION PAGE</h1>
+        <h2>Learn more about your favourite characters</h2>
+        <div class='movieBanner' id="gotButton">
+            <h1>Game Of Thrones</h1>
+            <div class="imgContainer" id="GOT"></div>
+        </div>
+        
+        <div class='movieBanner' id="hPButton">
+            <h1>Harry Potter</h1>
+            <div class="imgContainer" id="HP"></div>
+        </div>
+    
+        <div class='movieBanner' id="lotrButton">
+            <h1>Lord Of The Rings</h1>
+            <div class="imgContainer" id="LOTR"></div>
+        </div>
+    </div>
+
+
+    <div id="searchPage">
+        <button id="back">Back</button>
+        <div id="searchBar">
+            <form id="search">
+
+            </form>
+
+        </div>
+
+        <div id="characters">
+            <table id="charactersTable">
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
